@@ -1,0 +1,19 @@
+{
+  "name": "api-codamos-club",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasfieri/api-codamos-club.git"
+  },
+  "author": "Lucas Fieri <me@lucasfieri.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasfieri/api-codamos-club/issues"
+  },
+  "homepage": "https://github.com/lucasfieri/api-codamos-club#readme"
+}

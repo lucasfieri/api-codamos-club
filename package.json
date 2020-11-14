@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,16 @@
   "bugs": {
     "url": "https://github.com/lucasfieri/api-codamos-club/issues"
   },
+  "jest": {
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": ["/node_modules/"]
+  },
   "homepage": "https://github.com/lucasfieri/api-codamos-club#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
   }
 }

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "jest"
+    "start": "node server.js",
+    "test": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,10 @@
     "url": "https://github.com/lucasfieri/api-codamos-club/issues"
   },
   "jest": {
-  "testEnvironment": "node",
-  "coveragePathIgnorePatterns": ["/node_modules/"]
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   },
   "homepage": "https://github.com/lucasfieri/api-codamos-club#readme",
   "dependencies": {
